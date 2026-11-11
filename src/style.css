@@ -58,6 +58,11 @@ header {
   overflow: auto;
 }
 
+.divarjeqner p.active {
+  background-color: black;
+  color: white;
+}
+
 .divarjeqner {
   display: flex;
   gap: 20px;

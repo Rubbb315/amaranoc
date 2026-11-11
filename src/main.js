@@ -48,3 +48,15 @@ senyakner.forEach((button) => {
     button.classList.add("active");
   });
 });
+
+const arjeqner = document.querySelectorAll(".divarjeqner p.value");
+
+arjeqner.forEach((arjeq) => {
+  arjeq.addEventListener("click", () => {
+    arjeqner.forEach((item) => {
+      item.classList.remove("active");
+    });
+
+    arjeq.classList.add("active");
+  });
+});
