@@ -60,3 +60,15 @@ arjeqner.forEach((arjeq) => {
     arjeq.classList.add("active");
   });
 });
+
+const sahanguycner = document.querySelectorAll(".divsahanguycneriqanak button");
+
+sahanguycner.forEach((button) => {
+  button.addEventListener("click", () => {
+    sahanguycner.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+  });
+});
