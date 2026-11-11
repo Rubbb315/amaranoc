@@ -84,3 +84,15 @@ loxavazan.forEach((button) => {
     button.classList.add("active");
   });
 });
+
+const erkuxakan = document.querySelectorAll(".divverjierkuban img");
+
+erkuxakan.forEach((img) => {
+  img.addEventListener("click", () => {
+    erkuxakan.forEach((item) => {
+      item.classList.remove("active");
+    });
+
+    img.classList.add("active");
+  });
+});
