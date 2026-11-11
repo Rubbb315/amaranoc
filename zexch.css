@@ -93,3 +93,8 @@ header {
     flex-direction: column;
     gap: 30px;
 }
+
+.divpoxer{
+    background-color: orangered;
+    width: 40%;
+}
