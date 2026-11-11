@@ -6,9 +6,9 @@
 
 header {
   display: flex;
-  gap: 200px;
+  justify-content: center;
+  gap: 170px;
   padding-top: 30px;
-  padding-left: 80px;
 }
 
 .imgamaranoc {
@@ -112,7 +112,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  margin-left: 60px
 }
 
 .Math,
@@ -340,6 +339,7 @@ header {
 
 main {
   display: flex;
+  justify-content: center;
   align-items: flex-start;
   gap: 50px;
 }
@@ -582,4 +582,205 @@ main {
 .divverjierkuban img.active {
   background-color: black;
   border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+  header {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .divfortextsofheader {
+    gap: 20px;
+  }
+
+  main {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .divnerqevitner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .divskzbi3,
+  .divskzbi6,
+  .divskzbi9,
+  .divskzbi12,
+  .divskzbi15,
+  .divskzbi18,
+  .divskzbi21,
+  .divskzbi24,
+  .divskzbi27,
+  .divskzbi30,
+  .divskzbi33 {
+    flex-wrap: wrap;
+  }
+
+  .haytararutyundiv {
+    left: 10%;
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .divfortextsofheader {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .divfortheendofheader {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divkoxierkarbanihamar {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .divobdhimainiverevaj {
+    width: 100%;
+  }
+
+  .divmainiverev {
+    justify-content: center;
+  }
+
+  .divnerqevitner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .divskzbi3,
+  .divskzbi6,
+  .divskzbi9,
+  .divskzbi12,
+  .divskzbi15,
+  .divskzbi18,
+  .divskzbi21,
+  .divskzbi24,
+  .divskzbi27,
+  .divskzbi30,
+  .divskzbi33 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divnkar1,
+  .divnkar2,
+  .divnkar3,
+  .divnkar4,
+  .divnkar5,
+  .divnkar6,
+  .divnkar7,
+  .divnkar8,
+  .divnkar9,
+  .divnkar10,
+  .divnkar11,
+  .divnkar12,
+  .divnkar13,
+  .divnkar14,
+  .divnkar15,
+  .divnkar16,
+  .divnkar17,
+  .divnkar18,
+  .divnkar19,
+  .divnkar20,
+  .divnkar21,
+  .divnkar22,
+  .divnkar23,
+  .divnkar24,
+  .divnkar25,
+  .divnkar26,
+  .divnkar27,
+  .divnkar28,
+  .divnkar29,
+  .divnkar30,
+  .divnkar31,
+  .divnkar32,
+  .divnkar33,
+  .divnkar34 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .imgnkarner {
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .divtexts {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .haytararutyundiv {
+    left: 5%;
+    bottom: 20px;
+    width: 90%;
+  }
+
+  .texadrelhaytararutyu {
+    font-size: 22px;
+  }
+
+  .divinputner {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .inputner {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .divkontakner {
+    height: auto;
+    padding-top: 40px;
+  }
+
+  .divinstaect,
+  .divverjin {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    gap: 70px;
+  }
+
+  .divobdhimainiverevaj {
+    gap: 60px;
+  }
+
+  .imgnkarner {
+    width: 320px;
+    height: 270px;
+  }
+
+  header {
+    gap: 200px;
+  }
 }
