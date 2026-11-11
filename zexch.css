@@ -43,8 +43,53 @@ header {
     border-radius: 50px;
 }
 
+
 .hatukzexcher{
     text-transform: uppercase;
     text-align: center;
 }
 
+.imgnuynnkar{
+    width: 450px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.div3hatnkar{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.minuszexch{
+    font-size: 60px;
+}
+
+.divnkar{
+    position: relative;
+}
+
+.divnkar img{
+    width: 100%;
+}
+
+.divtexts{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 10%;
+}
+
+.pforall{
+    color: lightgray;
+}
+
+.h1patvirir{
+    text-transform: uppercase;
+}
+
+.divfortextsqart{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
