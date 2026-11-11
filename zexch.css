@@ -45,6 +45,7 @@ header {
 
 
 .hatukzexcher {
+    font-size: 40px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -99,6 +100,9 @@ header {
     width: 40%;
     height: 350px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .imgamaranocpoxer {
@@ -107,18 +111,35 @@ header {
 }
 
 .btnpoxer {
-    padding: 25px;
+    padding: 20px;
     font-size: 20px;
     background-color: white;
     width: 150px;
     border-radius: 30px;
     border: 1px solid;
+    transition: 0.5s
 }
 
-.divfor2{
+.btnpoxer:hover {
+    background-color: gray;
+}
+
+.divfor2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     justify-content: center;
+}
+
+.divnverqartbajin {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.tejarajarknerh1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
 }
