@@ -159,6 +159,11 @@ header {
   transition: 0.5s
 }
 
+.divgisherakac button.active {
+  background-color: black;
+  color: white;
+}
+
 .divgisherakac {
   display: flex;
   gap: 20px;
@@ -542,17 +547,17 @@ main {
 .gaxniutyanqaxaqakanutyun {
   color: white;
   text-align: center;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
-.divverjin{
+.divverjin {
   color: white;
   display: flex;
   gap: 50px;
   justify-content: center;
 }
 
-.divlasttexts{
+.divlasttexts {
   display: flex;
   justify-content: center;
   gap: 50px;

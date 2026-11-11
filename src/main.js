@@ -24,3 +24,15 @@ btnminus2.addEventListener("click", () => {
     tiv2.value--
   }
 })
+
+const buttons = document.querySelectorAll(".divgisherakac button");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    buttons.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+  });
+});
