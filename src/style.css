@@ -573,3 +573,8 @@ main {
   gap: 50px;
   flex-direction: column;
 }
+
+.divloxavazanihamar button.active {
+  background-color: black;
+  color: white;
+}

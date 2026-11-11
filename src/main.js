@@ -72,3 +72,15 @@ sahanguycner.forEach((button) => {
     button.classList.add("active");
   });
 });
+
+const loxavazan = document.querySelectorAll(".divloxavazanihamar button");
+
+loxavazan.forEach((button) => {
+  button.addEventListener("click", () => {
+    loxavazan.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+  });
+});
