@@ -187,6 +187,11 @@ header {
   background-color: lightgray;
 }
 
+.divsenyakneriqanak button.active {
+  background-color: black;
+  color: white;
+}
+
 .divsenyakneriqanak {
   display: flex;
   flex-direction: column;

@@ -36,3 +36,15 @@ buttons.forEach((button) => {
     button.classList.add("active");
   });
 });
+
+const senyakner = document.querySelectorAll(".divsenyakneriqanak button");
+
+senyakner.forEach((button) => {
+  button.addEventListener("click", () => {
+    senyakner.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+  });
+});
