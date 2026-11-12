@@ -516,3 +516,40 @@ header {
         padding: 15px;
     }
 }
+
+@media (min-width: 1200px) {
+    .div3hatnkar {
+        gap: 40px;
+    }
+
+    .imgnuynnkar {
+        width: 450px;
+    }
+
+    .divskzbi3,
+    .divskzbi6,
+    .divskzbi9 {
+        gap: 30px;
+    }
+
+    .divnkar1,
+    .divnkar2,
+    .divnkar3,
+    .divnkar4,
+    .divnkar5,
+    .divnkar6,
+    .divnkar7,
+    .divnkar8,
+    .divnkar9 {
+        width: 350px;
+    }
+
+    .divtexts2 {
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .divnverqartbajin {
+        gap: 70px;
+    }
+}
