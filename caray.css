@@ -93,7 +93,12 @@ header {
 }
 
 .imgnkarner3{
-    width: 100%;
+    width: 450px;
     border-radius: 10px;
-    
+}
+
+.divskzbi3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
