@@ -67,3 +67,16 @@ header {
 .h2forall{
     color: gray;
 }
+
+.btnamragrel{
+    background-color: white;
+    border-color: orange;
+    padding: 10px;
+    border-radius: 30px;
+    width: 130px;
+    transition: 0.5s;
+}
+
+.btnamragrel:hover{
+    background-color: lightgray;
+}
