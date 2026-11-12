@@ -89,7 +89,8 @@ header {
 .divnkar1,
 .divnkar2,
 .divnkar3,
-.divnkar4 {
+.divnkar4,
+.divnkar5 {
     display: flex;
     flex-direction: column;
     gap: 20px;
