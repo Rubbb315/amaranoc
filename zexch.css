@@ -196,6 +196,18 @@ header {
     gap: 20px;
 }
 
-.btnca{
-    
+.btnca {
+    padding: 15px;
+    background-color: orangered;
+    border-radius: 30px;
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.btnca:hover {
+    background-color: orange;
 }
