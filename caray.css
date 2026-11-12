@@ -64,11 +64,11 @@ header {
     text-decoration-color: orange;
 }
 
-.h2forall{
+.h2forall {
     color: gray;
 }
 
-.btnamragrel{
+.btnamragrel {
     background-color: white;
     border-color: orange;
     padding: 10px;
@@ -77,28 +77,29 @@ header {
     transition: 0.5s;
 }
 
-.btnamragrel:hover{
+.btnamragrel:hover {
     background-color: gray;
 }
 
-.divamragrelyevgumar{
+.divamragrelyevgumar {
     display: flex;
     gap: 100px;
 }
 
-.divnkar1{
+.divnkar1,
+.divnkar2 {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
-.imgnkarner3{
+.imgnkarner3 {
     width: 450px;
     border-radius: 10px;
 }
 
-.divskzbi3{
+.divskzbi3 {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 }
