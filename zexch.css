@@ -369,3 +369,150 @@ header {
         bottom: 100px;
     }
 }
+
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .divfortextsofheader {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .divfortheendofheader {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .inputheader {
+        width: 150px;
+    }
+
+    .hatukzexcher,
+    .tejarajarknerh1 {
+        font-size: 28px;
+    }
+
+    .div3hatnkar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imgnuynnkar {
+        width: 90%;
+        height: 250px;
+    }
+
+    .divnkar {
+        width: 90%;
+    }
+
+    .minuszexch {
+        font-size: 35px;
+    }
+
+    .divtexts {
+        top: 20%;
+        left: 7%;
+    }
+
+    .divnverqartbajin {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .divfortextsqart {
+        text-align: center;
+    }
+
+    .divpoxer {
+        width: 95%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .div1,
+    .div2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .btnpoxer {
+        width: 110px;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .divskzbi3,
+    .divskzbi6,
+    .divskzbi9 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divnkar1,
+    .divnkar2,
+    .divnkar3,
+    .divnkar4,
+    .divnkar5,
+    .divnkar6,
+    .divnkar7,
+    .divnkar8,
+    .divnkar9 {
+        width: 90%;
+    }
+
+    .divtexts2 {
+        gap: 15px;
+        justify-content: space-between;
+    }
+
+    .haytararutyundiv {
+        position: absolute;
+        left: 5%;
+        bottom: 20px;
+        width: 90%;
+    }
+
+    .texadrelhaytararutyu {
+        font-size: 22px;
+    }
+
+    .divinputner {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .inputner {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .imgantar {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .divkontakner {
+        height: auto;
+        padding-top: 30px;
+    }
+
+    .divinstaect,
+    .divverjin {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 15px;
+    }
+}
