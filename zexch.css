@@ -173,7 +173,9 @@ header {
 .divnkar3,
 .divnkar4,
 .divnkar5,
-.divnkar6 {
+.divnkar6,
+.divnkar7,
+.divnkar8 {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -186,7 +188,8 @@ header {
 }
 
 .divskzbi3,
-.divskzbi6 {
+.divskzbi6,
+.divskzbi9 {
     display: flex;
     justify-content: center;
     gap: 20px;
