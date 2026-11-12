@@ -42,3 +42,14 @@ header {
     border: 1px solid;
     border-radius: 50px;
 }
+
+.imgnyuter{
+    display: block;
+    margin: 0 auto;
+}
+
+.divfornyuter{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
