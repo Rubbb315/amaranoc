@@ -312,3 +312,60 @@ header {
     gap: 50px;
     flex-direction: column;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    header {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .divfortextsofheader {
+        gap: 20px;
+    }
+
+    .div3hatnkar {
+        flex-wrap: wrap;
+    }
+
+    .imgnuynnkar {
+        width: 300px;
+    }
+
+    .divnverqartbajin {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .divpoxer {
+        width: 70%;
+    }
+
+    .divskzbi3,
+    .divskzbi6,
+    .divskzbi9 {
+        flex-wrap: wrap;
+    }
+
+    .divnkar1,
+    .divnkar2,
+    .divnkar3,
+    .divnkar4,
+    .divnkar5,
+    .divnkar6,
+    .divnkar7,
+    .divnkar8,
+    .divnkar9 {
+        width: 40%;
+    }
+
+    .divtexts2 {
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .haytararutyundiv {
+        left: 10%;
+        bottom: 100px;
+    }
+}
