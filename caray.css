@@ -104,3 +104,9 @@ header {
     justify-content: center;
     gap: 15px;
 }
+
+.divfornkarner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+}
