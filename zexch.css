@@ -211,3 +211,12 @@ header {
 .btnca:hover {
     background-color: orange;
 }
+
+.divnkarantar{
+    position: relative;
+}
+
+.antarimg{
+    width: 100%;
+    height: 80vh;
+}
