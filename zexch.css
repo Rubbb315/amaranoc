@@ -263,3 +263,52 @@ header {
     width: 100%;
     height: 80vh;
 }
+
+.divkontakner {
+    background-color: rgb(16, 22, 35);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.imgverjin {
+    width: 100%;
+}
+
+.konktaknerh1 {
+    text-align: center;
+}
+
+.konktaknerh1,
+.forgmailinstaectp {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.divinstaect {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.gaxniutyanqaxaqakanutyun {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.divverjin {
+    color: white;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.divlasttexts {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
