@@ -99,14 +99,15 @@ header {
     border-radius: 10px;
 }
 
-.divskzbi3 {
+.divskzbi3,
+.divskzbi5 {
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-.divfornkarner{
+.divfornkarner {
     display: flex;
     flex-direction: column;
-    gap: 30px;    
+    gap: 30px;
 }
