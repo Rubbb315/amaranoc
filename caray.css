@@ -88,5 +88,12 @@ header {
 
 .divnkar1{
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.imgnkarner3{
+    width: 100%;
+    border-radius: 10px;
     
 }
