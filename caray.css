@@ -43,13 +43,23 @@ header {
     border-radius: 50px;
 }
 
-.imgnyuter{
+.imgnyuter {
     display: block;
     margin: 0 auto;
 }
 
-.divfornyuter{
+.divfornyuter {
     display: flex;
     justify-content: center;
     gap: 200px;
+}
+
+.ategforall {
+    color: black;
+    text-decoration: none;
+}
+
+.ategforall:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
 }
